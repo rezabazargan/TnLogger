@@ -11,7 +11,7 @@ TnLogger is a simple Logger used in Tispoon project
 
 
 #### <i class="icon-pencil"></i> create an interpreter
-> ex: to interprete an exception
+> ex: to interpret an exception
 ```
 class ExceptionInterpreter : IInterpreter
     {
@@ -77,8 +77,9 @@ LogManager.Config(c => {
 
 ```
 
-##
-now you can log your exception every where
+---
+
+>now you can log your exception every where
 ```
 catch(Exception ex)
    {
@@ -87,4 +88,4 @@ catch(Exception ex)
 ```
 
 
-##
+
