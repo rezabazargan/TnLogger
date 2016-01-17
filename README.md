@@ -12,6 +12,7 @@ TnLogger is a simple Logger used in Tispoon project
 
 #### <i class="icon-pencil"></i> create an interpreter
 > ex: to interpret an exception
+
 ```
 class ExceptionInterpreter : IInterpreter
     {
@@ -40,7 +41,7 @@ class ExceptionInterpreter : IInterpreter
     }
 ```
 
-#### <i class="icon-pencil"></i> create a Provider to store the log
+### create a Provider to store the log
 
 ```
 public class StoreProvider : IProvider
@@ -64,7 +65,7 @@ public class StoreProvider : IProvider
     }
 ```
 
-#### <i class="icon-pencil"></i> Config the application
+####Config the application
 
 > **note:**
 > config  logger in the start of your application
