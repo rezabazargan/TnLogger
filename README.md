@@ -88,5 +88,8 @@ catch(Exception ex)
    }
 ```
 
+>###Nuget Package
+> PM> Install-Package TnLogger
+
 
 
