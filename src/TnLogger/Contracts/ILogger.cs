@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TnLogger.Contracts
 {
-    public interface ILogger
+    public interface ILogModel
     {
         Guid Id { get; set; }
         string Title { get; set; }
