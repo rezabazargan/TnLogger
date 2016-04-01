@@ -22,6 +22,11 @@ namespace TnLogger
             get; set;
         }
 
+        public object Entity
+        {
+            get; set;
+        }
+
         public Guid Id
         {
             get; private set;
